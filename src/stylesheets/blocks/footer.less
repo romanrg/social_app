@@ -1,0 +1,25 @@
+.footer {
+    background: @bg-color;
+    height: 80px;    
+}
+
+.footer__wrapper {
+    .wrapper(@screen);
+    display: flex; 
+    height: 80px;
+}
+
+.footer__socials {
+    display: flex;
+    flex-grow: 2;
+    color: @color;
+}
+
+.footer__social-item {    
+    .clear-properties();   
+    margin-right: 10px; 
+}
+
+.footer__year {
+    color: @color;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "social_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanrg/social_app.git"
+  },
+  "author": "Nekhaichyk Raman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanrg/social_app/issues"
+  },
+  "homepage": "https://github.com/romanrg/social_app#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "body-parser": "^1.19.0",
+    "del": "^4.1.1",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^5.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.1",
+    "rename": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "gulp-babel": "^8.0.0"
+  }
+}

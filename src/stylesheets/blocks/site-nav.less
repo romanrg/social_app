@@ -1,0 +1,42 @@
+.site-nav {
+    display: flex;
+    flex-grow: 2;
+    color: @color;
+}
+
+.site-nav__list {    
+    .clear-properties();
+    display: flex;
+    flex-grow: 2;
+}
+.site-nav__item {    
+    a {
+        .clear-properties();
+    };
+
+    &:hover {
+        .hover();          
+    }
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    height: 20px;
+}
+
+.site-nav__user-list {   
+    .clear-properties();
+    display: flex;    
+}
+
+.site-nav__user-item {
+    a {
+        .clear-properties();
+    };
+    &:hover {
+        .hover();       
+    }    
+    margin: 10px;
+    margin-top: 30px;
+    height: 20px;
+}

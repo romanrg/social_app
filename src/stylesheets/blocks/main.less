@@ -1,0 +1,29 @@
+.main {
+    background: @danger-color;    
+    flex-grow: 2; 
+    display: flex;  
+    padding: 10px; 
+}
+
+.main__wrapper {
+    .wrapper(@screen);
+    flex-grow: 2;
+    display: flex;    
+}
+
+.main__aside {
+    display: flex;
+    flex-direction: column;
+     
+    width: 240px;
+    max-height: 850px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+.main__content {    
+    
+    width: 300px; 
+    flex-grow: 1;
+    display: flex;  
+}
