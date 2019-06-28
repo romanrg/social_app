@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./build/styles/main.min.css">
     <title>social_app</title>
 </head>
@@ -53,9 +54,237 @@
                 
             </aside>
             <section class="main__content">
-                <div>
-                    <h2>Заголовок</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit voluptatibus ratione minima minus quia culpa et eius, aliquam distinctio dolorum sint porro amet. Corporis fugit odio, nihil alias architecto nobis!</p>
+                <div class="content__wrapper">
+                    <div class="content__user-control user-control">
+                        <img src="http://placehold.it/115x115" alt="user pic"
+                        height="115" width="115"
+                        class="user-control__user-pic user-pic">
+                        <h3 class="user-control__user-name">
+                            Василий Слон
+                        </h3>
+                        <div class="user-control__wrapper">
+                            <a class="user-control__submit">Submit</a>
+                            <p class="user-control__rating">4.5</p>
+                        </div>                        
+                    </div>
+                   <div class="content__info">
+                        <h1 class="content__title">Заголовок</h1>
+                        <ul class="content__meta-list">
+                            <li class="content__meta-item">
+                                <p class="content__time-stamp">
+                                    22 Июня 2019<br>
+                                    19:22
+                                </p>
+                            </li>
+                            <li class="content__meta-item">
+                                <p class="content__location">
+                                    Минск, Беларусь
+                                </p>
+                            </li>
+                            <li class="content__meta-item">
+                                <div class="meta__wrapper">
+                                    <p class="content__watch">4307</p>
+                                    <p class="content__rating">4.6</p>
+                                </div> 
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="content__wrapper">                        
+                        <p class="content__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Pariatur, eveniet. Sunt sed saepe, 
+                            hic perferendis incidunt veniam 
+                            voluptatibus assumenda harum doloribus 
+                            dignissimos. Quasi nemo assumenda at. 
+                            Exercitationem aut autem qui.
+                        </p>
+                        <p class="content__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                            Pariatur, eveniet. Sunt sed saepe, 
+                            hic perferendis incidunt veniam 
+                            voluptatibus assumenda harum doloribus 
+                            dignissimos. Quasi nemo assumenda at. 
+                            Exercitationem aut autem qui.
+                        </p>
+                   </div>
+                   <button class="content__comments-control">
+                       See comments
+                   </button>
+                   <section class="content__comments comments" >
+                       <div class="comments__wrapper">
+                            <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           <section class="comment">
+                                <div class="comment__user-control user-control">
+                                    <img src="http://placehold.it/85x85" alt="user pic"
+                                        height="85" width="85"
+                                        class="user-control__user-pic">
+                                    <div class="user-control__control">
+                                        <a class="user-control__submit">Submit</a>
+                                        <a class="user-control__rating">4.5</a>
+                                    </div>                                            
+                                </div>
+                                    <p class="comment__body">
+                                       Lorem ipsum dolor sit amet consectetur 
+                                       adipisicing elit. Fugiat eius ipsa molestias 
+                                       rem eligendi! Maxime illum enim error, 
+                                       exercitationem culpa voluptas ut temporibus 
+                                       distinctio soluta quisquam, esse ipsam, 
+                                       nesciunt natus.
+                                    </p>
+                                <button class="comment__high">Upvote</button>
+                                <button class="comment__low">Downvote</button>
+                           </section>
+                           
+                       </div>
+                   </section>                    
                 </div>
             </section>
         </div>

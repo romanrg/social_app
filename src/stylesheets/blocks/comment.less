@@ -1,0 +1,34 @@
+.comment {
+    max-height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.comment__user-control {
+    display: flex;
+    img {
+        .user-pic(85px, 85px);
+    }
+}
+
+.user-control__control {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.comment__body {
+    .clear-properties();
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.comment__high {
+    .clear-properties();
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.comment__low {
+    .clear-properties();
+}

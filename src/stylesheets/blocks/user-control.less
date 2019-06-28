@@ -1,0 +1,44 @@
+.user-control {
+    .clear-properties();
+    width: 131px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    .user-pic {
+        .user-pic(115px, 115px);
+       
+    }
+    &:hover {
+        background: fade(@bg-color, 40%);
+        cursor: pointer;
+    }
+}
+
+
+.user-control__user-name {
+    .clear-properties();
+    font-size: 1.2rem;
+}
+
+.user-control__wrapper {
+    .wrapper(115px);
+    display: flex; 
+    margin-top: 2px;
+    margin-bottom: 2px;   
+}
+
+
+
+.user-control__submit {
+    .clear-properties();
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.user-control__rating {
+    .clear-properties();    
+    font-size: 1rem;
+    color: @bg-alt-color;
+}
