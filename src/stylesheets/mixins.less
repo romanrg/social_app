@@ -27,3 +27,16 @@
     width: @w;
     border-radius: 50%;
 }
+
+.icon(@url, @pos, @w, @h, @color) {
+    &:before {
+        content: "";
+        display: block;
+        width: @w; height: @h;
+        background: @url @pos ;
+        background-size: cover;               
+        float: left;
+        margin: 0 6px 0 0; 
+        background-color: @color;
+    }
+}
