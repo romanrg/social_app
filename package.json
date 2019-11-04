@@ -30,7 +30,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
     "method-override": "^3.0.0",
-    "mongoose": "^5.6.1",
+    "mongoose": "^5.7.5",
     "rename": "^1.0.4"
   },
   "devDependencies": {
